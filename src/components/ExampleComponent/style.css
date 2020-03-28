@@ -1,0 +1,22 @@
+.insert {
+  display: block;
+}
+
+.alter:after {
+  position: relative;
+  left: 14px;
+  z-index: 1;
+
+  padding: 15px 12px;
+
+  display: flex;
+
+  background: red;
+  color: red;
+  content: 'example';
+  border: 1px solid red;
+}
+
+.delete {
+  display: block;
+}
