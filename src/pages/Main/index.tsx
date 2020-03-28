@@ -13,7 +13,5 @@ export default function Main() {
   if (loading) return <span>Carregando...</span>;
   if (error) return <span>{`ocorreu um error: ${error}`}</span>;
 
-  return (
-    <ExampleComponent title={data.name} />
-  );
+  return <ExampleComponent title={data.name} />;
 }

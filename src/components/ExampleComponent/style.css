@@ -6,11 +6,8 @@
   position: relative;
   left: 14px;
   z-index: 1;
-
   padding: 15px 12px;
-
   display: flex;
-
   background: red;
   color: red;
   content: 'example';

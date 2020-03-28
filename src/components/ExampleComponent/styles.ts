@@ -1,30 +1,12 @@
-// import styled from 'styled-components';
+import styled from 'styled-components';
 
-// export const Container = styled.div`
-//   width: 100vw;
-//   height: 100vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   position: relative;
-
-//   background: ${(props) => (props.color ? props.color : '#45f')};
-
-//   > h1 {
-//     color: #fff;
-//     font-size: 48px;
-//   }
-// `;
-
-.a {
-  position: relative;
-
-    width: 100vw;
+export const Container = styled.div`
+  width: 100vw;
   height: 100vh;
-
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  position: relative;
 
   background: ${(props) => (props.color ? props.color : '#45f')};
 
@@ -32,4 +14,4 @@
     color: #fff;
     font-size: 48px;
   }
-}
+`;

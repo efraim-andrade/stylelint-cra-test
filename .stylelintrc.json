@@ -119,5 +119,5 @@
     ]
   },
   "extends": ["stylelint-config-idiomatic-order"],
-  "processors": ["postcss-syntax", "postcss-styled", "postcss-jsx"]
+  "processors": ["stylelint-processor-styled-components"]
 }
